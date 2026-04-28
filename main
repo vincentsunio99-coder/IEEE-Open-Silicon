@@ -1,0 +1,19 @@
+touch README.md
+git add README.md
+git commit -m "Initial commit"
+git push -u origin master
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/USERNAME/REPO.git
+git push -u origin main
+
+touch .gitkeep
+git add .gitkeep
+git commit -m "Initialize repository"
+git push
+
+git branch
+git remote -v
